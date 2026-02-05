@@ -19,7 +19,7 @@ namespace Password_Manager
 
         private void btn_confirm_Click(object sender, EventArgs e)
         {
-            if (txt_user.Text == "Matteo" || txt_user.Text == "matteo" || txt_user.Text == "admin" || txt_user.Text == "Admin" && txt_pwd.Text == "root" || txt_pwd.Text == "19534152")
+            if (txt_user.Text == "Matteo" || txt_user.Text == "matteo" || txt_user.Text == "admin" || txt_user.Text == "Admin" && txt_pwd.Text == "root" || txt_pwd.Text == "")
             {
                 new Main().Show();
                 this.Hide();
